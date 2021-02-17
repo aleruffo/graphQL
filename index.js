@@ -61,5 +61,5 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 // Lo metto in ascolto
 server.listen().then(({ url }) => {
-  // console.log(`> Running on: https://nome-repl.username-repl.repl.co/`);
+  console.log(`> Running on: https://nome-repl.username-repl.repl.co/`);
 });
