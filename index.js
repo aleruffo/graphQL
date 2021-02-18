@@ -5,8 +5,7 @@ const db = require('better-sqlite3')('postgresql.db');
 
 // Preparo le query SQL
 
-//ESEMPIO --> const nomeQuery = db.prepare('...query SQL...')
-
+//ESEMPIO --> const nomeQuery = db.prepare('...query SQL...') <-- ? per passare i parametri (in ordine)
 
 // Definisco lo schema
 
